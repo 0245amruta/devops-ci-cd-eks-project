@@ -1,0 +1,11 @@
+# Python
+_pycache_/
+*.pyc
+venv/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

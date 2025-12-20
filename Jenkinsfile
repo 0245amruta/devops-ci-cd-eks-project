@@ -20,15 +20,18 @@ pipeline {
     stage('Install Dependencies') {
       steps {
         sh '''
-          pip3 install --upgrade pip
-          pip3 install -r app/requirements.txt
+          python3.11 --version
+          pip3.11 install --upgrade pip
+          pip3.11 install --user -r app/requirements.txt
         '''
       }
     }
     
     stage('Run Tests') {
       steps {
-        sh 'pytest'
+        sh '''
+          python3.11 -m pytest
+        '''
       }
     }
 

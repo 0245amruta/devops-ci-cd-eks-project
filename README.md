@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project demonstrates a **production-style end-to-end DevOps workflow** where a Python application is automatically built, tested, containerized, and deployed to **AWS Kubernetes (EKS)** using **Jenkins CI/CD** and **Terraform (Infrastructure as Code)**.
 
-The project covers the complete lifecycle — from **infrastructure provisioning** to **continuous deployment** — following real-world DevOps best practices.
+The project covers the complete lifecycle from **infrastructure provisioning** to **continuous deployment** following real-world DevOps best practices.
 
 ---
 

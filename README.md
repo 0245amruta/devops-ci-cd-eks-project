@@ -75,13 +75,13 @@ Infrastructure is provisioned using **Terraform** with a **remote backend** for 
 ---
 
 ## 📂 Repository Structure
-├── app/ # Python Flask application
-├── Dockerfile # Docker image definition
-├── Jenkinsfile # CI/CD pipeline definition
-├── terraform/ # Infrastructure as Code (IaC)
-├── k8s/ # Kubernetes manifests
-├── .gitignore
-└── README.md
+| app/ # Python Flask application
+| Dockerfile # Docker image definition
+| Jenkinsfile # CI/CD pipeline definition
+| terraform/ # Infrastructure as Code (IaC)
+| k8s/ # Kubernetes manifests
+| .gitignore
+| README.md
 
 
 ---
